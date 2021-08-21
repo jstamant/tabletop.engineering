@@ -1,0 +1,7 @@
+{{- if .Site.Params.globalAdvisory }}
+<div id="advisory">
+  {{- with .Site.GetPage "/advisory" }}
+  {{ .Content }}
+  {{- end }}
+</div>
+{{- end }}

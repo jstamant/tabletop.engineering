@@ -1,0 +1,62 @@
+{{/*FUTURE SPOT FOR MAIL LIST ENTRY*/}}
+{{/* SEARCH WIDGET */}}
+{{/*<div id="search">
+<form role="search" method="get" action="https://google.com/search">
+<label>
+<input type="search" placeholder="{{ T "search_placeholder" }}" value="" name="q" aria-label="{{ T "search_placeholder" }}">
+</label>
+<input class="widget-search__submit" type="submit" value="Search">
+<input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}" />
+</form>
+</div>*/}}
+{{/* RECENT WIDGET */}}
+{{/*
+{{- $recent := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{- $recent_num := (.Site.Params.widgets.recent_num | default 10) }}
+{{- if $recent }}
+<nav id="recents">
+  <h3>Recent Posts</h3>
+  <div class="widget__content">
+    <ul>
+      {{- range first $recent_num $recent }}
+      <li class="widget__item"><a class="widget__link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{- end }}
+    </ul>
+  </div>
+</nav>
+{{- end }}
+*/}}
+{{/* TAGLIST WIDGET */}}
+{{- $tags := .Site.Taxonomies.tags }}
+{{- if gt (len $tags) 0 }}
+<nav id="taglist">
+  <h3>Tags</h3>
+  <ul class="pure-menu-list">
+    {{- range $name, $taxonomy := $tags }}
+    {{- with $.Site.GetPage (printf "/tags/%s" $name) }}
+    <li class="pure-menu-item"><a class="pure-menu-link" href="{{ .RelPermalink }}">{{- .Title -}}</a></li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</nav>
+{{- end }}
+{{/* CATEGORIES WIDGET */}}
+{{- $categories := .Site.Taxonomies.categories }}
+{{- if gt (len $categories) 0 }}
+<nav id="categories">
+  <h3>Categories</h3>
+  <ul class="pure-menu-list">
+    {{- range $name, $taxonomy := $categories }}
+    {{- with $.Site.GetPage (printf "/categories/%s" $name) }}
+    <li class="pure-menu-item"><a class="pure-menu-link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</nav>
+{{- end }}
+<nav>
+  <h3>Links</h3>
+  <ul class="pure-menu-list">
+    <li class="pure-menu-item"><a class="pure-menu-link" href="/posts/index.xml">RSS</a></li>
+  </ul>
+</nav>

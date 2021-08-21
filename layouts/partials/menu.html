@@ -1,0 +1,21 @@
+<nav id="nav" class="pure-menu pure-menu-horizontal">
+  <ul class="pure-menu-list">
+    {{- $currentNode := . }}
+    {{- range .Site.Menus.main }}
+    {{- if .Name }}
+    <li class="pure-menu-item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{ end }}">
+      <a class="pure-menu-link" href="{{ .URL }}">{{ .Name }}</a>
+    </li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</nav>
+{{/*<div id="nav">
+  <ul>
+    {% for page in pages %}
+      {% if not page.date %} {# check if the page isn't a blog post #}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>*/}}
