@@ -4,7 +4,8 @@ build:
 
 .PHONY: push
 push:
-	scp -P 35531 -r public/* jstamant@tabletop.engineering:/srv/http/tte
+	rsync -avz --delete -e "ssh -p 35531" public/* jstamant@tabletop.engineering:/srv/http/tte
+#	scp -P 35531 -r public/* jstamant@tabletop.engineering:/srv/http/tte
 
 .PHONY: clean
 clean:

@@ -1,12 +1,11 @@
 ---
 title: About
 date: 2021-08-19
-menu: "main"
 ---
 
-TODO NEED TO APPROACH THIS LESS LIKE A KNOW-IT-ALL
+Hey, guys - I'm Justin St-Amant.
 
-Hey, there. I'm Justin, and this is my tabletop engineering journal.
+This is my tabletop engineering journal.
 
 I put together this site to compile my experience as a Game Master (GM), or
 better yet, as a curator of experiences. My goal is to document the hours of
