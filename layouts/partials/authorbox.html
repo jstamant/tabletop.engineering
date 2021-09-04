@@ -1,9 +1,9 @@
 {{- if .Param "authorbox" }}
 {{- if (eq .Section "posts") }}
 <div class="authorbox clearfix">
-  {{- with .Site.Author.avatar }}
-  <figure class="authorbox__avatar">
-    <img alt="{{ $.Site.Author.name }} avatar" src="{{ $.Site.Author.avatar | relURL }}" class="avatar" height="90" width="90">
+  {{- with .Site.Author.image }}
+  <figure class="authorbox__image">
+    <img alt="{{ $.Site.Author.name }} image" src="{{ $.Site.Author.image | relURL }}" class="image" height="90" width="90">
   </figure>
   {{- end }}
   {{- with .Site.Author.name }}

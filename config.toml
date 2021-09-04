@@ -9,8 +9,8 @@ googleAnalytics = "G-8338ZTXXB4"
 
 [Author] # Used in authorbox
 name = "Justin St-Amant"
-bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-avatar = "img/avatar.png"
+bio = "Hey, guys. I'm Justin, the author of this blog. I love running RPGs and playing RPGs with others. I'm an Engineering Technologist in my day-job, but other than that, I hustle on this blog and other projects of interest to me."
+image = "/img/author.jpg"
 
 [Menu]
 [[Menu.main]]
