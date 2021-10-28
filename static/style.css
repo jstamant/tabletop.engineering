@@ -113,6 +113,10 @@ pre {
   text-align: left;
 }
 
+#authorbox figure {
+  display: inline;
+}
+
 #advisory {
   background-color: #e9fcff;
   padding: 0.5em 1em;

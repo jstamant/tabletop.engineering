@@ -1,8 +1,0 @@
-{{/* Show the advisory only on posts */}}
-{{- if and .Site.Params.globalAdvisory (or (eq .Section "posts") .IsHome) }}
-<div id="advisory">
-  {{- with .Site.GetPage "/advisory" }}
-  {{ .Content }}
-  {{- end }}
-</div>
-{{- end }}

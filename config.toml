@@ -1,6 +1,7 @@
 baseURL = 'https://tabletop.engineering/'
 languageCode = 'en-us'
 title = 'Tabletop Engineering'
+theme = 'hugo-theme'
 
 paginate = "10" # Number of posts per page
 googleAnalytics = "G-8338ZTXXB4"
