@@ -10,7 +10,7 @@ googleAnalytics = "G-8338ZTXXB4"
 
 [Author] # Used in authorbox
 name = "Justin St-Amant"
-bio = "Hey, guys. I'm Justin, the author of this blog. I love running RPGs and playing RPGs with others. I'm an Engineering Technologist in my day-job, but other than that, I hustle on this blog and other projects of interest to me."
+bio = "Hey, guys. I'm Justin, the author of this blog. I love running RPGs and playing RPGs with others. I'm an Engineering Technologist in my day-job, but other than that, I hustle on this blog and on other projects of interest to me."
 image = "/img/author.jpg"
 
 [Menu]
@@ -37,6 +37,7 @@ subtitle = "Optimize your role-playing games" # Not being used? Removed from hom
 #description = "John Doe's Personal blog about everything" # Site description. Used in meta description
 readmore = true # Show "Read more" button in list if true ACTUALLY USED, RIGHT NOW
 authorbox = true # Show authorbox at bottom of pages if true
+comments = true # Show comments section on posts if true
 #toc = true # Enable Table of Contents
 #pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
 #post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
