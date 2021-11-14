@@ -60,9 +60,9 @@ a future post.
 
 ## Develops storytelling, performance, and social skills
 
-Once of my favorite parts of playing RPGs are the skills that I
-develop as a result. Here's a list of skills that you can develop if
-you participate in role-playing games:
+One of my favorite parts of playing RPGs are the skills that I develop
+as a result. Here's a list of skills that you can develop if you
+participate in role-playing games:
 
 - Acting/role-playing. Learn how to emulate a character's person.
 - Improvising. Learn how to come up with realistic details on the
@@ -110,10 +110,10 @@ that hasn't heard of D&D or played it. Many people are interested in
 playing it, but don't have a group to play in.
 
 I've even met closeted D&D players - people that deny playing D&D, but
-actually love it. If the only that's keeping you from playing an RPG
-is fear, cast your doubt aside! Stop caring about what other people
-think! The only thing that could make RPGs lame or nerdy are your
-insecurities. Own it. If this is what you want to try, then do it
+actually love it. If the only thing that's keeping you from playing an
+RPG is fear, cast your doubt aside! Stop caring about what other
+people think! The only thing that could make RPGs lame or nerdy are
+your insecurities. Own it. If this is what you want to try, then do it
 confidently! Only inaction is the biggest mistake you could make.
 
 You can't go wrong with playing RPGs. If you have the opportunity to
