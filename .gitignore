@@ -1,2 +1,4 @@
-# Ignore export file
-public/
+node_modules/
+
+.next/
+out/

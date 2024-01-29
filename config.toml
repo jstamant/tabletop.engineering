@@ -1,16 +1,3 @@
-baseURL = 'https://tabletop.engineering/'
-languageCode = 'en-us'
-title = 'Tabletop Engineering'
-theme = 'hugo-theme'
-
-paginate = "10" # Number of posts per page
-googleAnalytics = "G-8338ZTXXB4"
-
-[Author] # Used in authorbox
-name = "Justin St-Amant"
-bio = "Hey, guys. I'm Justin, the author of this blog. I love running RPGs and playing RPGs with others. I'm an Engineering Technologist in my day-job, but other than that, I hustle on this blog and on other projects of interest to me."
-image = "/img/author.jpg"
-
 [Menu]
 [[Menu.main]]
 name = "Home"
@@ -29,13 +16,3 @@ name = "Contact"
 url = "/contact/"
 weight = 4
 
-[Params]
-globalAdvisory = true # My own custom parameter
-readmore = true # Show "Read more" button in list if true ACTUALLY USED, RIGHT NOW
-authorbox = true # Show authorbox at bottom of pages if true
-comments = true # Show comments section on posts if true
-mainSections = ["post"] # Specify section pages to show on home page and the "Recent articles" widget
-dateformat = "2006-01-02" # Change the format of dates, not currently implemented
-
-[Params.logo]
-image = "/img/logo.png"
