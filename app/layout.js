@@ -4,9 +4,9 @@ import './globals.css'
 // googleAnalytics = "G-8338ZTXXB4"
 // <GoogleAnalytics gaId="G-?" /> place right after body
 
-// // Fix Font Awesome for use with Next.js (need to manually import FA's CSS)
-// import { config } from '@fortawesome/fontawesome-svg-core'
-// import '@fortawesome/fontawesome-svg-core/styles.css'
+// Fix Font Awesome for use with Next.js (need to manually import FA's CSS)
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 // const source_sans = Source_Sans_3({
 //   subsets: ['latin'],
