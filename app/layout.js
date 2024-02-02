@@ -1,5 +1,5 @@
 import './globals.css'
-// import { Source_Sans_3 } from 'next/font/google'
+import { Inter } from 'next/font/google'
 // import { GoogleAnalytics } from '@next/third-parties/google'
 // googleAnalytics = "G-8338ZTXXB4"
 // <GoogleAnalytics gaId="G-?" /> place right after body
@@ -8,11 +8,11 @@ import './globals.css'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
-// const source_sans = Source_Sans_3({
-//   subsets: ['latin'],
-//   display: 'swap',
-//   variable: '--font-source-sans',
-// })
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
 
 // TODO change description
 export const metadata = {
@@ -37,7 +37,7 @@ import Footer from '../components/footer'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <body>
         <Header />
         {children}
