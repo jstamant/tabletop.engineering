@@ -1,13 +1,12 @@
 import fs from 'fs'
-// TODO replace gray-matter with remark-frontmatter
-import matter from 'gray-matter'
-
 import rehypeSanitize from 'rehype-sanitize'
 import rehypeStringify from 'rehype-stringify'
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import {unified} from 'unified'
+
+import { getPostBySlug } from '../../../lib/api';
 
 // Return a list of `params` to populate the [slug] dynamic segment
 // TODO make this automatic, not manual
@@ -29,18 +28,6 @@ export function generateStaticParams() {
 //   // ...
 // }
 
-function getPostBySlug(slug) {
-  console.log(slug);
-  const realSlug = slug.replace(/\.md$/, "");
-  console.log(realSlug);
-  const postsDirectory = process.cwd() + "/content";
-  const fullPath = postsDirectory + `/${realSlug}.md`;
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(fileContents);
-
-  return { ...data, realSlug, content };
-}
-
 // TODO fix layout inheritance
 export default async function Page({ params }) {
   const {slug} = params;
@@ -52,7 +39,6 @@ export default async function Page({ params }) {
     .use(rehypeSanitize)
     .use(rehypeStringify)
     .process(post.content);
-  console.log(content);
   
   return (
     <main className="mx-auto w-11/12 md:w-2/3">
