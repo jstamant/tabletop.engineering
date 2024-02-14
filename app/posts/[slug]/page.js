@@ -6,19 +6,11 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import {unified} from 'unified'
 
-import { getPostBySlug } from '../../../lib/api';
+import { getPostSlugs, getPostBySlug } from '../../../lib/api';
 
-// Return a list of `params` to populate the [slug] dynamic segment
-// TODO make this automatic, not manual
+// Populate the [slug] dynamic segment with all the posts' slugs
 export function generateStaticParams() {
-  const postList = [
-    "can-you-dungeon-master-as-a-beginner",
-    "how-to-get-player-feedback-in-dnd",
-    "how-to-give-your-dm-feedback-in-dnd",
-    "how-to-make-a-good-dmpc",
-    "why-you-should-play-tabletop-rpgs"
-  ];
-  return postList.map((post) => ({slug: post}));
+  return getPostSlugs().map((postSlug) => ({slug: postSlug}));
 }
 
 // // Multiple versions of this page will be statically generated
