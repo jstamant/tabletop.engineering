@@ -13,14 +13,6 @@ export function generateStaticParams() {
   return getPostSlugs().map((postSlug) => ({slug: postSlug}));
 }
 
-// // Multiple versions of this page will be statically generated
-// // using the `params` returned by `generateStaticParams`
-// export default function Page({ params }) {
-//   const { slug } = params
-//   // ...
-// }
-
-// TODO fix layout inheritance
 export default async function Page({ params }) {
   const {slug} = params;
   // or use params.slug
@@ -33,10 +25,10 @@ export default async function Page({ params }) {
     .process(post.content);
   
   return (
-    <main className="mx-auto w-11/12 md:w-2/3">
+    <>
       <h1>post.title: {post.title}</h1>
       <article>{content.value}</article>
-    </main>
+    </>
   );
 }
 // return (
