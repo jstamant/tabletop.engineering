@@ -20,8 +20,8 @@ export const metadata = {
   description: 'A compilation of my experiences and learning as a Game Master - a curator of experiences!',
   generator: 'Next.js',
   icons: {
-    icon: 'favicon.ico',
-    shortcut: 'favicon.ico',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
   }
 }
 
