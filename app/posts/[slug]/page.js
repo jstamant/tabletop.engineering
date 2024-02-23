@@ -1,10 +1,11 @@
-import fs from 'fs'
-import rehypeSanitize from 'rehype-sanitize'
-import rehypeStringify from 'rehype-stringify'
-import remarkFrontmatter from 'remark-frontmatter'
-import remarkParse from 'remark-parse'
-import remarkRehype from 'remark-rehype'
-import {unified} from 'unified'
+import * as prod from 'react/jsx-runtime';
+import { Fragment } from 'react';
+import fs from 'fs';
+import rehypeReact from 'rehype-react';
+import rehypeSanitize from 'rehype-sanitize';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import { unified } from 'unified';
 
 import { getPostSlugs, getPostBySlug } from '../../../lib/api';
 
@@ -15,36 +16,21 @@ export function generateStaticParams() {
 
 export default async function Page({ params }) {
   const {slug} = params;
-  // or use params.slug
   const post = getPostBySlug(slug);
+  const production = {Fragment: prod.Fragment, jsx: prod.jsx, jsxs: prod.jsxs};
   const content = await unified()
     .use(remarkParse)
     .use(remarkRehype)
     .use(rehypeSanitize)
-    .use(rehypeStringify)
+    .use(rehypeReact, production)
     .process(post.content);
-  
   return (
     <>
-      <h1>post.title: {post.title}</h1>
-      <article>{content.value}</article>
+      <header>
+        <h1>{post.title}</h1>
+        <time dateTime={post.date.toString()}>{post.date.toString()}</time>
+      </header>
+      <article>{content.result}</article>
     </>
   );
 }
-// return (
-//   <main>
-//     <Alert preview={post.preview} />
-//     <Container>
-//       <Header />
-//       <article className="mb-32">
-//         <PostHeader
-//           title={post.title}
-//           coverImage={post.coverImage}
-//           date={post.date}
-//           author={post.author}
-//         />
-//         <PostBody content={content} />
-//       </article>
-//     </Container>
-//   </main>
-// );
