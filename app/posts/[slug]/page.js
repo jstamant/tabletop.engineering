@@ -1,6 +1,4 @@
 import * as prod from 'react/jsx-runtime';
-import { Fragment } from 'react';
-import fs from 'fs';
 import rehypeReact from 'rehype-react';
 import rehypeSanitize from 'rehype-sanitize';
 import remarkParse from 'remark-parse';
