@@ -1,18 +1,16 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-// import { GoogleAnalytics } from '@next/third-parties/google'
-// googleAnalytics = "G-8338ZTXXB4"
-// <GoogleAnalytics gaId="G-?" /> place right after body
+import './globals.css';
+import { Inter } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 // Fix Font Awesome for use with Next.js (need to manually import FA's CSS)
-import { config } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
-})
+});
 
 // TODO change description
 export const metadata = {
@@ -23,15 +21,15 @@ export const metadata = {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
   }
-}
+};
 
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-}
+};
 
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 // TODO add menu, too
 
@@ -45,6 +43,7 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-8338ZTXXB4" />
     </html>
-  )
+  );
 }
