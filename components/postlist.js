@@ -2,9 +2,9 @@ import PostCard from './postcard';
 
 import { getAllPosts } from '../lib/api';
 
-// TODO need to implement pagination
-
 export default function PostList () {
   let allPosts = getAllPosts();
-  return getAllPosts().map((post, idx) => <PostCard slug={post.slug} key={post.slug} />);
+  // Sort by most recent
+  allPosts.sort((a, b) => b.date - a.date);
+  return allPosts.map((post, idx) => <PostCard slug={post.slug} key={post.slug} />);
 }
