@@ -18,7 +18,7 @@ Actually, as an experienced Game Master, one of my biggest GMing
 priorities is to keep my games simple. Let me elaborate on that,
 because there area varying degrees of simplifying your game.
 
-## Run a one-shot or a short series
+# Run a one-shot or a short series
 When running an RPG for the first time, plan on running a one-shot or
 running 3-6 sessions. Don't overcommit yourself to something that will
 burn you out as a DM. Running a year-long campaign with weekly
@@ -47,7 +47,7 @@ DMing, it might end up spilling over into another session or two. It
 *is* challenging, and you won't be able to gauge how long your
 encounters will take.
 
-## Strip the rules to a manageable level
+# Strip the rules to a manageable level
 You're a new DM. There's a lot to juggle during a game, so do yourself
 a favor, and simplify the game itself. Consider cutting rules that add
 too much complexity for little return.
@@ -78,7 +78,7 @@ If you insist on playing with the rules as-written, then do a
 reasonable amount of studying to make sure you know them. I personally
 prefer to commit the least amount possible of my DMing resources.
 
-## Focus on what you know and like
+# Focus on what you know and like
 If you're planning on running a game, you probably have an idea of
 what you like about the game. Focus on delivering *that* at the table.
 
@@ -110,7 +110,7 @@ players. Send shivers down their spines!
 Whatever it is that you like about the game, focus on delivering it.
 Your players will have a memorable experience as a result.
 
-## The pitfalls to avoid
+# The pitfalls to avoid
 I suggest you start by running a published adventure. Or even better -
 run a published adventure that you've played in. You will
 significantly reduce your game prep for a first-time DM, and you'll
@@ -126,7 +126,7 @@ Cut one more variable out of the equation - the writing. If you've
 never ran a game before, prioritise learning how to run the game
 before you learn how to design a game.
 
-## Let go of your worries/doubts
+# Let go of your worries/doubts
 Dispel any doubt that you have about running a game. It takes a lot of
 effort to run a *catastrophic* failure. The odds that you run a game
 so bad that you become hated for it is remote. If you run a game for

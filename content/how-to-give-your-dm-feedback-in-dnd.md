@@ -23,7 +23,7 @@ If you want to hear about some realistic ways of giving your DM
 feedback, then read on. I've personally tried and tested all of what
 I'm going to cover.
 
-## Give your DM feedback privately, over text
+# Give your DM feedback privately, over text
 Giving feedback to a DM has never been easier. Texting is readily
 available. You're likely in a group chat for your game, already.
 
@@ -76,7 +76,7 @@ feedback to DMs, I still find myself initiating all my meaningful
 feedback over text. If texting about the game isn't addressing your
 concerns, you can always suggest meeting up in-person to discuss further.
 
-## Give your DM feedback privately, in-person
+# Give your DM feedback privately, in-person
 Although I'd say you can get all of your feedback needs addressed over
 text, discussing feedback in-person can have the benefit of
 communicating a tone that suits your message.
@@ -97,7 +97,7 @@ This whole article assumes that you have some kind of appearance or
 relationship that needs to be maintained. Otherwise, you're free to
 tell people off as you see fit!
 
-## Be honest - Don't lie when giving feedback
+# Be honest - Don't lie when giving feedback
 I often find myself put on the spot at the end of a session, when the
 DM asks the table "so what did you guys think of that?" or "how was
 today's session?"

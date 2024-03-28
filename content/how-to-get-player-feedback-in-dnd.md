@@ -23,7 +23,7 @@ valuable on their own, but if you can implement them as a whole, you
 will see greater results more often. Read on if you want to unlock the
 secrets to getting player feedback.
 
-## Build psychological safety at your table
+# Build psychological safety at your table
 You might not have heard of psychological safety, but I think you will
 understand what it means when we discuss it.
 
@@ -72,7 +72,7 @@ So, with all this exploration on the topic of psychological safety:
 how do we promote it? Easy. Lead by example. Set a precedent of
 vulnerability by being humble. Openly admit to your mistakes.
 
-## Set a precedent of openness and vulnerability
+# Set a precedent of openness and vulnerability
 You want to have a group of players that are *comfortable* sharing
 their concerns and that are *comfortable* providing feedback, even if
 they think the feedback will upset you. You need to set a precedent
@@ -91,7 +91,7 @@ This won't be easy. Doing this is the equivalent of initiating a
 serious conversation with someone. Let me show you how I do this with
 some examples.
 
-### Admitting to your mistakes
+## Admitting to your mistakes
 In this example, I ran a session where the combat took too long. The
 combat started getting boring for me and the players, and I noticed it
 during the session. I brought it up after the session, and admitted
@@ -121,7 +121,7 @@ reasonable.
 Be honest and truthful! Embody the type of person you want your
 players to be. Show them that there's no shame in making mistakes!
 
-### Show that you're taking initiative
+## Show that you're taking initiative
 Show to your players that you're *actually* following-up on feedback.
 
 In this example, I open a session by discussing feedback from the
@@ -175,7 +175,7 @@ yourself as a confident, competent, and proactive Game Master.
 Act. Have some accountability to your players. Show that you're taking
 the lead.
 
-### Open yourself to receiving feedback anytime
+## Open yourself to receiving feedback anytime
 Remind your players that you can take feedback over text, and openly
 invite it. Players will appreciate knowing that you're willing to
 listen to their concerns and work with them at any time.
@@ -213,7 +213,7 @@ closing the session at a reasonable time.
 Be a true friend of your players. Be there to listen to them and
 support them.
 
-## Effective ways of asking for feedback
+# Effective ways of asking for feedback
 When your group is comfortable sharing at the table, you can start
 asking for feedback. I've shown a few techniques in the above
 examples, but let me point them out more clearly.

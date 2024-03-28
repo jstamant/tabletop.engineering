@@ -19,7 +19,7 @@ is so vast now, that you're guaranteed to find something you like.
 I've got some more to say about this, like all other RPG conversation
 topics, so I urge you to read-on!
 
-## You're guaranteed to like *something* about RPGs
+# You're guaranteed to like *something* about RPGs
 
 There are so many different facets in RPGs that you'll come across
 some that you like more than others. For example, many players that
@@ -41,7 +41,7 @@ aren't comfortable with the thought of role-playing, but can
 appreciate the game for its other facets, like spending time with
 friends.
 
-## You're guaranteed to like a specific game-system
+# You're guaranteed to like a specific game-system
 
 Apart from finding something appealing about playing RPGs, I think
 you're also guaranteed to find a *game-system* that appeals to you.
@@ -58,7 +58,7 @@ A bare-bones version of D&D that does what my players love best -
 kicking ass. I'll have to visit the strengths of other game-systems in
 a future post.
 
-## Develops storytelling, performance, and social skills
+# Develops storytelling, performance, and social skills
 
 One of my favorite parts of playing RPGs are the skills that I develop
 as a result. Here's a list of skills that you can develop if you
@@ -98,7 +98,7 @@ When I host games, I actively work at improving my skills. When I play
 in games, I tend to develop these skills passively. However, like most
 hobbies and activities, you'll get as much out of it as you put in.
 
-## There are very few reasons why you *shouldn't* play RPGs
+# There are very few reasons why you *shouldn't* play RPGs
 
 I'd like to go as far as saying that there are NO good reasons why you
 shouldn't try RPGs.

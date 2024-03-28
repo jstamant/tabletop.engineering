@@ -20,7 +20,7 @@ their own agenda.
 
 Do read on. I want to ensure that you see success with your DMPC.
 
-## Make your DMPC likeable
+# Make your DMPC likeable
 Like any NPC that you want your players to interact with, let's make
 your DMPC likeable.
 
@@ -46,7 +46,7 @@ your DMPC likeable.
 You should tailor these to your group's interests and tendencies to
 maximise your chance of success.
 
-## Give your DMPC their own voice
+# Give your DMPC their own voice
 Like all other NPCs in your game world, DMPCs need their own point of
 view. Give your DMPC an agenda. When they act, make sure you role-play
 their agenda and personality confidently.
@@ -64,7 +64,7 @@ lights out!" In the former situation, it feels like the DM is trying
 to hold you back while in the latter, it feels like the DM is cheering
 you on!
 
-## Use your DMPC as a tool
+# Use your DMPC as a tool
 Once your players accept the DMPC into the party, the DMPC becomes an
 instrumental tool to the DM.
 
@@ -91,7 +91,7 @@ towards having one, they would feel like their expectations have just
 been violated and that you've just taken that option away from them
 selfishly.
 
-## The pitfalls of playing a DMPC
+# The pitfalls of playing a DMPC
 Your DMPC can significantly influence the party, but each time they
 make a suggestion, you put your reputation on the line. There are
 pitfalls to running a DMPC, and making mistakes can often harm your
@@ -140,7 +140,7 @@ NPCs. Give your DMPC a reason to leave the party in case you feel the
 DMPC is unsuccessful. Some ideas: an insatiable wanderlust, a
 deathwish, a previous commitment, fear of danger, fear of the party.
 
-## Assess why you need a DMPC
+# Assess why you need a DMPC
 The truth is - you're actually just creating an NPC. The term "DMPC"
 describes a degenerate case where the DM is trying to live the player
 experience of the game through an NPC.
