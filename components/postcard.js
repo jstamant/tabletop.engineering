@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-import { getPostBySlug } from '../lib/api';
+import { getPostBySlug } from '../utils/api';
 
-export default function PostCard(params) {
-  const post = getPostBySlug(params.slug);
+export default async function PostCard(params) {
+  const post = await getPostBySlug(params.slug);
   const link = "/posts/" + post.slug;
   const datetime = <time dateTime={post.date.toISOString()}>{post.date.toDateString()}</time>
   return (
