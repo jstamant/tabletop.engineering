@@ -45,16 +45,16 @@ export async function getPostBySlug(slug) {
   const components = {
     blockquote: (props) => <blockquote className='pl-8 italic border-l-2 border-neutral-900'>{ props.children }</blockquote>,
     em: (props) => <em className='italic'>{ props.children }</em>,
-    h1: (props) => <h1 className='my-2 text-2xl'>{ props.children }</h1>,
-    h2: (props) => <h2 className='my-2 text-2xl'>{ props.children }</h2>,
-    h3: (props) => <h3 className='my-2 text-2xl'>{ props.children }</h3>,
-    h4: (props) => <h4 className='my-2 text-2xl'>{ props.children }</h4>,
-    h5: (props) => <h5 className='my-2 text-2xl'>{ props.children }</h5>,
-    h6: (props) => <h6 className='my-2 text-2xl'>{ props.children }</h6>,
+    h1: (props) => <h1 className='my-8 text-3xl font-bold'>{ props.children }</h1>,
+    h2: (props) => <h2 className='my-8 text-2xl'>{ props.children }</h2>,
+    h3: (props) => <h3 className='my-8 text-2xl'>{ props.children }</h3>,
+    h4: (props) => <h4 className='my-8 text-2xl'>{ props.children }</h4>,
+    h5: (props) => <h5 className='my-8 text-2xl'>{ props.children }</h5>,
+    h6: (props) => <h6 className='my-8 text-2xl'>{ props.children }</h6>,
     li: (props) => <li className='ml-8'>{ props.children }</li>,
-    p: (props) => <p className='my-2'>{ props.children }</p>,
+    p: (props) => <p className='my-6'>{ props.children }</p>,
     strong: (props) => <strong className='font-bold'>{ props.children }</strong>,
-    ul: (props) => <ul className='my-2 list-disc'>{ props.children }</ul>,
+    ul: (props) => <ul className='my-6 list-disc'>{ props.children }</ul>,
   };
 
   const react = await unified()

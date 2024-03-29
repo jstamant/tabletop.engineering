@@ -8,13 +8,20 @@ export function generateStaticParams() {
 export default async function Page({ params }) {
   const {slug} = params;
   const post = await getPostBySlug(slug);
+  const date = post.date.toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
   return (
     <>
-      <header>
-        <h1>{post.title}</h1>
-        <time dateTime={post.date.toString()}>{post.date.toString()}</time>
-      </header>
-      <article>{post.content}</article>
+      <article className="my-16 text-lg">
+        <header>
+          <h1 className="text-4xl font-bold">{post.title}</h1>
+          <time dateTime={post.date.toString()}>{date}</time>
+        </header>
+        {post.content}
+      </article>
     </>
   );
 }
