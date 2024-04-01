@@ -32,6 +32,5 @@ consideration to.
 Going into a game, I must deliver the experience I intended on delivering. I
 must convey the atmosphere I intended on conveying.
 
-I engineer my games to mitigate the risk of failure. [Do you?]({{<ref
-"how-to-get-player-feedback-in-dnd.md">}})
+I engineer my games to mitigate the risk of failure. [Do you?](how-to-get-player-feedback-in-dnd.md)
 
