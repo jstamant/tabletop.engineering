@@ -16,7 +16,6 @@ emails, so there's a good chance that I reply.
 Since I like programming and I developed this website by myself, I better link
 to my [GitHub profile](https://github.com/jstamant).
 
-This is a static website, built with [Hugo](https://gohugo.io). The repository
-for this website and its theme are located at
-[jstamant/tabletop.engineering](https://github.com/jstamant/tabletop.engineering)
-and [jstamant/hugo-theme](https://github.com/jstamant/hugo-theme).
+This is a static website, built with [Next.js](https://nextjs.org/).
+The repository for this website and is located at
+[jstamant/tabletop.engineering](https://github.com/jstamant/tabletop.engineering/).

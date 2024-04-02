@@ -1,5 +1,3 @@
-// TODO NOT COMPLETELY IMPLEMENTED
-
 import * as prod from 'react/jsx-runtime';
 import rehypeReact from 'rehype-react';
 import rehypeSanitize from 'rehype-sanitize';
@@ -15,8 +13,8 @@ import matter from 'gray-matter';
 /**
  * Takes a file path, and returns all the associated post's
  * frontmatter (metadata), and content
- * @slug - string
- * @return - { frontmatter indexes, slug(string), content(react components) }
+ * @path - string
+ * @return - { frontmatter indexes, content(react components) }
  */
 const processMarkdownFile = async (path) => {
   const file = fs.readFileSync(path, "utf8");
@@ -24,6 +22,7 @@ const processMarkdownFile = async (path) => {
 
   const production = {Fragment: prod.Fragment, jsx: prod.jsx, jsxs: prod.jsxs };
   const components = {
+    a: (props) => <a className='underline' href={props.href}>{ props.children }</a>,
     blockquote: (props) => <blockquote className='pl-8 italic border-l-2 border-neutral-900'>{ props.children }</blockquote>,
     em: (props) => <em className='italic'>{ props.children }</em>,
     h1: (props) => <h1 className='my-8 text-3xl font-bold'>{ props.children }</h1>,
