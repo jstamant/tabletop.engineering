@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={inter.className}>
       <body>
         <Header />
-        <main className="mx-auto w-11/12 md:w-2/3">
+        <main className="mx-auto my-16 w-11/12 md:w-2/3 text-lg">
           {children}
         </main>
         <Footer />

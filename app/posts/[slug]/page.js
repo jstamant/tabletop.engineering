@@ -15,7 +15,7 @@ export default async function Page({ params }) {
   });
   return (
     <>
-      <article className="my-16 text-lg">
+      <article>
         <header>
           <h1 className="text-4xl font-bold">{post.title}</h1>
           <time dateTime={post.date.toString()}>{date}</time>
