@@ -1,6 +1,7 @@
 ---
 title: "How to Get Player Feedback in D&D"
 date: 2021-12-10
+author: Justin St-Amant
 draft: false
 summary: To get quality feedback on your role-playing games, you need to establish psychological safety at your gaming table. Before asking for feedback, set a precedent of being vulnerable and open to it. Once you've established the right environment for feedback, your players will share the same comfort and vulnerability, and they\'ll provide more meaningful feedback than "yes", "no", or "it was fun."
 ---

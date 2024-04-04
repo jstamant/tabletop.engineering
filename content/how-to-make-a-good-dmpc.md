@@ -1,6 +1,7 @@
 ---
 title: "How to Make a Good DMPC"
 date: 2021-11-08
+author: Justin St-Amant
 draft: false
 summary: "To make a good DMPC, aim to make a good NPC instead. Your DMPC should be liked by the party, defer decisions to the party, and should avoid overshadowing the party with unfair advantages from the DM. Use you DMPC as a storytelling tool, and as a way to fill a specific skill gap in the party. Like any good, interesting NPC, your DMPC should have their own agenda."
 ---

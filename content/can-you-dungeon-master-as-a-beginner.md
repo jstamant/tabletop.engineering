@@ -1,6 +1,7 @@
 ---
 title: "Can You Dungeon Master as a Beginner?"
 date: 2021-11-05
+author: Justin St-Amant
 draft: false
 summary: "The answer is yes. You can Dungeon Master an RPG even if you're a beginner. If you're new to RPGs or to a specific RPG game-system, you can still run a game. For new and experienced DMs, when trying a new game-system, you should focus on keeping things simple."
 ---

@@ -19,6 +19,7 @@ export default async function Page({ params }) {
         <header>
           <h1 className="text-4xl font-bold">{post.title}</h1>
           <time dateTime={post.date.toString()}>{date}</time>
+          { post.author ? ` - ${post.author}` : ' - Anonymous' }
         </header>
         {post.content}
       </article>

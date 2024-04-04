@@ -1,6 +1,7 @@
 ---
 title: "Why You Should Play Tabletop RPGs"
 date: 2021-10-30
+author: Justin St-Amant
 draft: false
 summary: "You should play tabletop RPGs because not only is it fun, but it builds many soft and hard skills. Regardless of whether you're a player or whether you're the host/GM, you'll be using skills that you don't use day-to-day. And on top of that, the market for tabletop RPGs is so vast now, that you're guaranteed to find something you like. "
 ---

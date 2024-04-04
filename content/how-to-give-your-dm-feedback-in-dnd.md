@@ -1,6 +1,7 @@
 ---
 title: "How to Give Your DM Feedback in D&D"
 date: 2022-01-07
+author: Justin St-Amant
 draft: false
 summary: "If you want to give your DM feedback on their role-playing game, start the conversation over text. You can also discuss feedback in-person with the DM, but considering the availability and convenience of texting, you have nothing to lose by maintaining open communication with the DM over text."
 ---
