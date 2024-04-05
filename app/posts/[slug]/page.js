@@ -1,3 +1,5 @@
+import AuthorBox from '../../../components/authorbox';
+
 import { getPostSlugs, getPostBySlug } from '../../../utils/api';
 
 // Populate the [slug] dynamic segment with all the posts' slugs
@@ -13,15 +15,17 @@ export default async function Page({ params }) {
     month: 'long',
     year: 'numeric',
   });
+  const author = post.author ? post.author : 'Anonymous';
   return (
     <>
       <article>
         <header>
           <h1 className="text-4xl font-bold">{post.title}</h1>
           <time dateTime={post.date.toString()}>{date}</time>
-          { post.author ? ` - ${post.author}` : ' - Anonymous' }
+          {' - '}{author}
         </header>
         {post.content}
+        <AuthorBox author={author}/>
       </article>
     </>
   );
