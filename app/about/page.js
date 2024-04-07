@@ -2,7 +2,6 @@ import processMarkdownFile from '../../utils/markdown';
 
 const Page = async () => {
   const page = await processMarkdownFile(`${process.cwd()}/app/about/about.md`);
-  console.log(page);
   return (
     <>
       <h1 className="text-4xl font-bold">{page.title}</h1>
