@@ -10,9 +10,8 @@ Here's another facet of communication at the gaming table - players
 wanting to give feedback to their Game Masters. I've had plenty of
 experience having serious conversations with Game Masters and weighing
 in with feedback. In the last article, I wrote about [how to get
-feedback from your players]({{<ref
-"how-to-get-player-feedback-in-dnd.md">}}), but now I'm interested in
-exploring the other side of this topic.
+feedback from your players](/posts/how-to-get-player-feedback-in-dnd),
+but now I'm interested in exploring the other side of this topic.
 
 If you want to give your DM feedback on their role-playing game, start
 the conversation over text. You can also discuss feedback in-person
@@ -140,5 +139,4 @@ would also benefit other areas of your life.
 
 For an article that goes deeper on this topic and explores the table
 environment needed for a strong gaming group, check out what I wrote
-last time about [how to get feedback from your players]({{<ref
-"how-to-get-player-feedback-in-dnd.md">}}).
+last time about [how to get feedback from your players](/posts/how-to-get-player-feedback-in-dnd).
