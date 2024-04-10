@@ -12,7 +12,7 @@ If you have any comments or feedback, feel free to send me an email at
 of updating this page, I'm not receiving many emails, so there's a
 good chance that I reply.
 
-{{< figure src="/img/author.jpg" alt="Image of Justin St-Amant" class="post image avatar" >}}
+![Image of the author](/img/author.jpg "Author")
 
 Since I like programming and I developed this website by myself, I better link
 to my [GitHub profile](https://github.com/jstamant).

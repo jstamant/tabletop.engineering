@@ -31,6 +31,7 @@ const processMarkdownFile = async (path) => {
     h4: (props) => <h4 className='my-8 text-2xl'>{ props.children }</h4>,
     h5: (props) => <h5 className='my-8 text-2xl'>{ props.children }</h5>,
     h6: (props) => <h6 className='my-8 text-2xl'>{ props.children }</h6>,
+    img: (props) => <img className='w-3/4 md:w-1/2 mx-auto rounded-2xl' src={props.src} alt={props.alt} title={props.title} />,
     li: (props) => <li className='ml-8'>{ props.children }</li>,
     p: (props) => <p className='my-6'>{ props.children }</p>,
     strong: (props) => <strong className='font-bold'>{ props.children }</strong>,
