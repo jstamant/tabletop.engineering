@@ -6,6 +6,6 @@ This project is built with [Next.js](https://nextjs.org/) and [Tailwind CSS](htt
 
 (Jan 25, 2024) I recently moved the site from *Hugo* to *Next.js*. I made this change due to Next's speed, flexibility, and support for CSS and JS tools. With React Server Components, Next is a real contender to static site generators like Hugo. I also prefer programming with React than I do with Hugo's Go templates.
 
-![Screenshot](/doc/2024-04-04-181451-scrot.png)
+![Screenshot](/doc/screenshot.png)
 
 © 2021-2024 Justin St-Amant - All rights reserved
