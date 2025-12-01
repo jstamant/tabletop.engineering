@@ -8,7 +8,7 @@ Hey, guys. I'm Justin St-Amant. I'm the one running the show at Tabletop
 Engineering.
 
 If you have any comments or feedback, feel free to send me an email at
-[justin@tabletop.engineering](mailto:justin@tabletop.engineering). As
+[justin@tabletopengineering.com](mailto:justin@tabletopengineering.com). As
 of updating this page, I'm not receiving many emails, so there's a
 good chance that I reply.
 

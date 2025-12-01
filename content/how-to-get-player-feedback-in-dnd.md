@@ -249,7 +249,7 @@ feedback over direct messages to individual players, they'll feel
 inclined to answer privately.
 
 What do you think about all of this? [Send me an
-email!](mailto:justin@tabletop.engineering?subject=Feedback%20on%20psychological%20safety%20at%20the%20table)
+email!](mailto:justin@tabletopengineering.com?subject=Feedback%20on%20psychological%20safety%20at%20the%20table)
 I'm interested in hearing what other people have to say about this.
 Psychological safety, and managing conflict and expectations holds a
 special place at my table. I want to hear from people like you,

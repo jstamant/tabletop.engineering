@@ -15,7 +15,7 @@ export default function Header () {
 
   return (
     <header className="bg-neutral-200 h-16 pl-6 md:px-8 flex items-center justify-between font-semibold">
-      <Link href="/" className="text-2xl"><FontAwesomeIcon icon={faDiceD20} className="mr-2" />Tabletop.Engineering</Link>
+      <Link href="/" className="text-2xl"><FontAwesomeIcon icon={faDiceD20} className="mr-2" />Tabletop Engineering</Link>
       <nav className="text-base hidden md:flex">
         <Link className={menu.cls} href={link.home}>Home</Link>
         <Link className={menu.cls} href={link.posts}>Posts</Link>

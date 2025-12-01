@@ -1,6 +1,6 @@
-# [Tabletop Engineering](https://tabletop.engineering/)
+# [Tabletop Engineering](https://tabletopengineering.com/)
 
-This is the repository where I keep all the content and site configuration for [Tabletop Engineering](https://tabletop.engineering/).
+This is the repository where I keep all the content and site configuration for [Tabletop Engineering](https://tabletopengineering.com/).
 
 This project is built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
